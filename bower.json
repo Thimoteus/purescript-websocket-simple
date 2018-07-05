@@ -5,7 +5,6 @@
   "authors": [
     "Konstantin Zudov <co@zudov.me>"
   ],
-  "license": "BSD-3-Clause",
   "moduleType": [
     "node"
   ],
@@ -23,13 +22,12 @@
     "purescript"
   ],
   "dependencies": {
-    "purescript-dom": "^4.0.0",
-    "purescript-eff": "^3.0.0",
-    "purescript-exceptions": "^3.0.0",
-    "purescript-generics": "^4.0.0",
-    "purescript-var": "^2.0.0"
-  },
-  "devDependencies": {
-    "purescript-console": "^3.0.0"
+    "purescript-web-html": "^1.0.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-exceptions": "^4.0.0",
+    "purescript-var": "git://github.com/thimoteus/purescript-var.git#compiler/0.12",
+    "purescript-generics-rep": "^6.0.0",
+    "purescript-web-events": "^1.0.0",
+    "purescript-web-socket": "^1.0.0"
   }
 }
